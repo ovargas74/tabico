@@ -1,3 +1,7 @@
+---
 - name: hello
-  debug: 
-    msg: "Hello"
+  hosts: all
+  tasks:
+  - name: hello
+    debug: 
+      msg: "Hello"
